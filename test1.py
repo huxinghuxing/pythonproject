@@ -10,6 +10,7 @@ caps={
     'unicodeKeyboard':True,
     'resetKeyboard':True}
 driver=webdriver.Remote('http://127.0.0.1:4723/wd/hub',caps)
+driver.find_element_by_xpath()
 
 
 
